@@ -8,7 +8,6 @@
     };
   },
   mounted() {
-
     this.GetQuotes();
     setInterval(this.GetQuotes, 10000); 
   },
@@ -19,7 +18,7 @@
           const data = await response.json();
     
           this.hero = data["name"];
-          this.hero_quote = data["quote"]; //assing the result to the component variable
+          this.hero_quote = data["quote"]; //passing the result to the component variable
 
 
         } catch (error) {
