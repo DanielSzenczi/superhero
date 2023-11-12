@@ -23,8 +23,7 @@ Ved initialisering (Mounting) af komponenten sættes der et interval på 10000 m
 - 
 #### Backend
 Projekt struktur:
-![[Pasted image 20231112111355.png]]
-
+![](https://github.com/DanielSzenczi/superhero/blob/main/Pasted%20image%2020231112111355.png)
 * Data model
 ```C#
 namespace HeroFunction.Models
@@ -101,7 +100,8 @@ IQuoter interface med metoden identify
 To eller flere klasser som implementerer interfacet med hver deres superheltenavn, de søger efter.
 En QuoterService klasse som bruger dependency injection til at få fat på de forskellige IQuoter implementationer. 
 
-![[SuperheltSystem.png]]
+
+![](https://github.com/DanielSzenczi/superhero/blob/main/SuperheltSystem.png)
 Denne tilgang gør det nemt at tilføje flere services, som identificerer citater, så længe de overholder interface og resten af strukturen.
 
 
